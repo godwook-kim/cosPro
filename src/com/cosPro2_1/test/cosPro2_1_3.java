@@ -1,3 +1,5 @@
+package com.cosPro2_1.test;
+
 /*
  * [1] Cos Pro 2 급 1차
  * #문제 3
