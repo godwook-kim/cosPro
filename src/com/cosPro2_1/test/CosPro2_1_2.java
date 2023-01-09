@@ -1,5 +1,4 @@
 package com.cosPro2_1.test;
-
 /*
  * [2] Cos Pro 2 급 1차
  * #문제 2
@@ -10,7 +9,7 @@ package com.cosPro2_1.test;
  * S 5% G 10% V 15%
  *
  */
-class cosPro2_1_2 {
+class CosPro2_1_2 {
     public int solution(int price , String grade){
         int answer = 0 ;
         switch (grade) {
@@ -28,7 +27,7 @@ class cosPro2_1_2 {
     }
 
     public static void main(String args[]){
-        cosPro2_1_2 sol = new cosPro2_1_2();
+        CosPro2_1_2 sol = new CosPro2_1_2();
         int price1 = 2500;
         String grade1 = new String("V");
         int ret1 = sol.solution(price1,grade1);

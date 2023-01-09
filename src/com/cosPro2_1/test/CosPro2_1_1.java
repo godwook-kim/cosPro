@@ -13,7 +13,7 @@ package com.cosPro2_1.test;/*
 
 import java.util.*;
 
-class cosPro2_1_1 {
+class CosPro2_1_1 {
     public int[] solution(String[] shirtSize){
         int[] answer = new int[6]; // "XS", "S", "M", "L" , "XL", "XXL" 이므로
         for(int i = 0 ; i <shirtSize.length;i++){
@@ -42,7 +42,7 @@ class cosPro2_1_1 {
     }
 
     public static void main(String args[]){
-        cosPro2_1_1 sol = new cosPro2_1_1();
+        CosPro2_1_1 sol = new CosPro2_1_1();
         String[] shirtSize = {"XS", "S", "L", "L" , "XL", "S" };
         int[] ret = sol.solution(shirtSize);
         System.out.println("Solution : return value of the method is" + Arrays.toString(ret) + " .");

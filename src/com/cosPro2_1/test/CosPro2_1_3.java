@@ -1,5 +1,4 @@
 package com.cosPro2_1.test;
-
 /*
  * [1] Cos Pro 2 급 1차
  * #문제 3
@@ -10,7 +9,7 @@ package com.cosPro2_1.test;
  * 2단계 끝날짜가 1월1일로부터 며칠만큼 떨어져 있는지 구합니다.
  * 3단계 (2단계에서 구한 날짜) - (1단계에서 구한날짜) 극 구합니다.
  */
-class cosPro2_1_3 {
+class CosPro2_1_3 {
     public int func_a(int month , int day ){
         int monthList[] = {31,28,31,30,31,30,31,31,30,31,30,31};
         int total = 0 ;
@@ -29,7 +28,7 @@ class cosPro2_1_3 {
 
 
     public static void main(String args[]) {
-        cosPro2_1_3 sol = new cosPro2_1_3();
+        CosPro2_1_3 sol = new CosPro2_1_3();
         int startMonth = 1;
         int startDay = 2;
         int endMOnth = 2;

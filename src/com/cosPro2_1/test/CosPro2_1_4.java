@@ -1,5 +1,4 @@
 package com.cosPro2_1.test;
-
 /*
  * [1] Cos Pro 2 급 1차
  * #문제 4
@@ -10,9 +9,8 @@ package com.cosPro2_1.test;
  * 2단계. 가장 많이 등장하는 수의 갯수를 구합니다.
  * 3단계. 가장 적게 등장하는 수의 갯수를 구합니다.
  * 4단계 가장 많이 등장하는 수가 가장 적게 등장하는 수보다 몇 배 더 많은지 구합니다.
-
  */
-class cosPro2_1_4 {
+class CosPro2_1_4 {
     int[] func_a(int[] arr){
         int[] counter = new int[1001];
         for(int i = 0 ; i < arr.length; i++){
@@ -51,7 +49,7 @@ class cosPro2_1_4 {
     }
 
     public static void main(String args[]){
-        cosPro2_1_4 sol = new cosPro2_1_4();
+        CosPro2_1_4 sol = new CosPro2_1_4();
         int[] arr = {1,2,3,3,1,3,3,2,3,2};
         int ret = sol.solution(arr);
 
