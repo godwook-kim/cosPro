@@ -18,6 +18,9 @@ class CosPro2_2_10 {
                 answer+=10000;
             }
         }
+        /*
+         
+         */
         return answer;
     }
     public static void main(String[] args){
