@@ -6,7 +6,7 @@ package com.cosPro2_3.test;
  */
 import java.util.Arrays;
 
-class cosPro2_3_1 {
+class CosPro2_3_1 {
     int func_a(int[] scores, int score){
         int length = scores.length;
         for(int rank = 0 ; rank < length ; rank++) {
@@ -39,7 +39,7 @@ class cosPro2_3_1 {
     }
 
     public static void main(String[] args){
-        cosPro2_3_1 sol = new cosPro2_3_1();
+        CosPro2_3_1 sol = new CosPro2_3_1();
         int[] scores = {20,60,98,59};
         int n = 3;
 
